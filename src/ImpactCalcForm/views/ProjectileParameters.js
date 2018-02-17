@@ -35,8 +35,8 @@ class ProjectileParameters extends Component {
  <select name="distance">
     <option value="1000">1000 kg/m^3 for ice</option>
     <option value="1500">1500 kg/m^3 for porous rock</option>
-    <option value="3000">miles</option>
-    <option value="8000">miles</option>
+    <option value="3000">3000 kg/m^3 for dense rock</option>
+    <option value="8000">8000 kg/m^3 for iron</option>
 
   
 

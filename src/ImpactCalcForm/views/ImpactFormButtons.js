@@ -11,6 +11,7 @@
 
 
       <form>
+      <input type="submit" value="Submit" />
       <button type="button" onclick="(Hello world)" class="btn btn-success">Calculate Effects</button>
        <button type="button" onclick="(Hello world)">Rest Form</button>
        </form>

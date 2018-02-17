@@ -10,12 +10,16 @@ class ImpactCalcForm extends Component
 
 
 
+// add validation into to validate the distance impactor code 
+
+
+
 render() {
 
 
 return (
 
-   <div>
+   <form>
    <div id="distanceImpactor">
    <DistanceToImpactor/>
    </div>
@@ -37,7 +41,9 @@ return (
     <ImpactFormButtons/>
      </div>
 
-     </div>
+    <input type="submit" value="Submit" />
+
+     </form>
 
 	
 

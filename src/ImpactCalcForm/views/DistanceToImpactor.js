@@ -13,7 +13,7 @@ import React, { Component } from 'react';
         <h2>Distance from Impact</h2>
   <label>
     Distance from impact
-    <input type="text" name="name" />
+    <input type="text" name="distancetoimpactor" required pattern="[0-9]*" />
   </label>
   
  <select name="distance">
@@ -22,6 +22,8 @@ import React, { Component } from 'react';
   
 
   </select>
+
+
   </div>
 
  
